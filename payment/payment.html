@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="payment.css">
+    <title>Payment</title>
+</head>
+<body style="margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #fff;">
+    
+    <div id="mainwrapper" style="width:600px;
+    height: 500px;
+    margin: auto;
+    background: #f0f0f5;
+    margin-top: 40px;
+    padding-top: 10px;">
+       
+        <div id="imgdiv" style="width:150px;
+    height: 30px;
+    margin: auto;">
+            <!-- <img src="../home page images/medical-app1.png"
+            width="100px"
+            height="80px"
+            > -->
+            <p style="text-align:center;font-size: large;">Payment Gateway</p>
+        </div>
+       <div id="secondwrapper" style="width:55%;
+    height: 400px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 10px;">
+    
+            <form action="success.html" style="display: flex; 
+            flex-direction: column;
+            margin-left: 60px;
+            margin-top: 20px;" id="myform"  onsubmit="return orderplcd()">
+                <label for="card">Card Number</label>
+                <input id="card" type="number" placeholder="Enter Card Number">
+                <label for="cvv">CVV</label>
+                <input id="cvv" type="number" placeholder="Enter CVV">
+                <label for="exp">Expiry Date</label>
+                <input id="exp" type="date">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Enter Name">
+                <input type="submit" id="submitbtn" style="width: 150px;
+                margin-top: 10px;
+                margin-left: 25px;
+                background-color: #199fd9;
+                border: 1px solid #199fd9;
+                color: #fff;">
+            </form>
+       </div>
+    </div>
+   
+</body>
+</html>
+<script src="payment.js"></script>

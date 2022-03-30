@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "A-Z tablet",
+        "price": 200,
+        "image": { "fields": { "file": { "url": "./images/a-z.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Acnemoist",
+        "price": 150,
+        "image": { "fields": { "file": { "url": "./images/acnemoist.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Dolo",
+        "price": 75,
+        "image": { "fields": { "file": { "url": "./images/dolo.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Septilin",
+        "price": 80,
+        "image": { "fields": { "file": { "url": "./images/septilin.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Vitamin-E tablets",
+        "price": 50,
+        "image": { "fields": { "file": { "url": "./images/vitamine.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Zincovit",
+        "price": 100,
+        "image": { "fields": { "file": { "url": "./images/zincovit.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Meftal Tablets",
+        "price": 85,
+        "image": { "fields": { "file": { "url": "./images/meftal.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Similac",
+        "price": 500,
+        "image": { "fields": { "file": { "url": "./images/similac.jpg" } } }
+      }
+    }
+    
+    
+  ]
+}

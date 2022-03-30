@@ -1,0 +1,18 @@
+form>input{
+    width: 180px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e3e3ec;
+}
+
+form>label{
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+form>:nth-child(1){
+    margin-top: 10px;
+}
+form>input:hover{
+    border: 1px solid #199fd9;
+}
