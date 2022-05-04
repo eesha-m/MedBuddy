@@ -8,9 +8,9 @@ MedBuddy is a healthcare website with the following features:
 5. About Us page
 6. Contact Us page
 
-Note- To run this project locally you need xampp server and you have to create a table users with columns- id (auto_increment), name, username, password.
+*Note-* To run this project locally you need xampp server and you have to create a table users with columns- id (auto_increment), name, username, password.
 
-Note- Apart from login/ signup feature, all other features have been deployed.
+*Note-* Apart from login/ signup feature, all other features have been deployed.
 
 ### Demo
 
